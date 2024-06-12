@@ -1,14 +1,7 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Index from "./pages/Index.jsx";
+import Map from "./components/Map";
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Index />} />
-      </Routes>
-    </Router>
-  );
+  return <Map />;
 }
 
 export default App;
